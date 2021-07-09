@@ -5,7 +5,8 @@ notifications:
   email: false
 deploy: 
   provider: heroku
-  api_key: "secure api key"
+  api_key: 
+    secure: dab47c4d-1c71-4f98-aecc-3751b30dad2c
   app: malouf
   skip_cleanup: true
   on: main
