@@ -6,8 +6,10 @@
 
 .mattress-image {
   position: absolute;
-  width: 992px;
-  height: 630px;
+  /* width: 992px; */
+  /* height: 630px; */
+  width: 1000px;
+  height: 750px;
   left: 438px;
   top: 210px;
 }
@@ -44,12 +46,13 @@
 
 .mattress-shadow {
   position: absolute;
-  width: 752px;
+  /* width: 752px; */
+  width: 711px;
   height: 628px;
   left: 727px;
   top: 153px;
-  background: #00B3E2;
-  box-shadow: 17px 8px 11px rgba(0, 0, 0, 0.176913);
+  /* background: #00B3E2; */
+  /* box-shadow: 17px 8px 11px rgba(0, 0, 0, 0.176913); */
 }
 
 .blue-box {
