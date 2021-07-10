@@ -19,7 +19,18 @@
   font-weight: 600;
   font-size: 52px;
   line-height: 60px;
-  /* or 115% */
   letter-spacing: 1.39487px;
   color: #000000;
+}
+
+.mattress-shadow {
+  position: absolute;
+  width: 752px;
+  height: 628px;
+  left: 727px;
+  top: 153px;
+  background: #00B3E2;
+  box-shadow: 17px 8px 11px rgba(0, 0, 0, 0.176913);
+  /* background-blend-mode: normal; */
+  display: inline-block;
 }
