@@ -4,6 +4,7 @@ import memoryFoam from './Memory Foam Feature Copy.png'
 import latexFoam from './Latex foam feature Copy.png'
 import spring from './Spring Feature Copy.png'
 import hybrid from './Hybrid Feature Copy.png'
+import text from './Whats Your Type.png'
 
 class MattressType extends Component {
   render() {
@@ -14,6 +15,7 @@ class MattressType extends Component {
         <img src={latexFoam} className='latex-foam' alt='latex foam mattress info' />
         <img src={spring} className='spring' alt='spring mattress info' />
         <img src={hybrid} className='hybrid' alt='hybrid mattress info' />
+        <img src={text} className='text' alt='text whats your type' />
       </div>
     )
   }

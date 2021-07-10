@@ -39,3 +39,21 @@
   left: 1053px;
   top: 3383px;
 }
+
+.text {
+  position: absolute;
+  width: 683px;
+  height: 69px;
+  left: 340px;
+  top: 3211px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 69px;
+  /* identical to box height, or 172% */
+  text-align: center;
+  letter-spacing: 1.07px;
+  /* color: #FFFFFF; */
+  color: black;
+}
