@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css';
 import WelcomeArea from '../WelcomeArea/WelcomeArea';
 import MattressSize from '../MattressSize/MattressSize';
+import MattressType from '../MattressType/MattressType';
 
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
       <div>
         <WelcomeArea />
         <MattressSize />
+        <MattressType />
       </div>
     )
   }
