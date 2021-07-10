@@ -7,6 +7,7 @@ class WelcomeArea extends Component {
   render() {
     return (
       <div>
+        <p className='welcome-text'>Good Things Come in Tall But Manageable Packages</p>
         <img src={mattress} className='mattress-image' alt='mattress' />
       </div>
     )
