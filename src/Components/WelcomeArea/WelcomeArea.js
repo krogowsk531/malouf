@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import mattress from './Mattresses-HeaderImage.svg';
+import './WelcomeArea.css';
+
 
 class WelcomeArea extends Component {
   render() {
