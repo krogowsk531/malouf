@@ -5,7 +5,7 @@ class WelcomeArea extends Component {
   render() {
     return (
       <div>
-        <img src={mattress} alt='mattress' />
+        <img src={mattress} className='mattress-image' alt='mattress' />
       </div>
     )
   }
