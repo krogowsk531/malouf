@@ -9,9 +9,7 @@ class App extends Component {
     return (
       <div>
         <WelcomeArea />
-      <div>
         <MattressSize />
-      </div>
       </div>
     )
   }
