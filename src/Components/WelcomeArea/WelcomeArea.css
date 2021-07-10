@@ -34,3 +34,12 @@
   /* background-blend-mode: normal; */
   display: inline-block;
 }
+
+.blue-box {
+  position: absolute;
+  width: 103px;
+  height: 87px;
+  left: -20px;
+  top: 213px;
+  background: #0061A6;
+}
