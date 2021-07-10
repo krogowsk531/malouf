@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import greySquare from './Rectangle 3 Copy 5.png'
 
-class MattressSize extends {
+class MattressSize extends Component {
   render() {
     return (
       <div>

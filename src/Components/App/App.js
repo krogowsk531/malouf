@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css';
 import WelcomeArea from '../WelcomeArea/WelcomeArea';
+import MattressSize from '../MattressSize/MattressSize';
 
 
 class App extends Component {
@@ -8,6 +9,9 @@ class App extends Component {
     return (
       <div>
         <WelcomeArea />
+      <div>
+        <MattressSize />
+      </div>
       </div>
     )
   }
