@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+/* body {
+  background: #F2F2F2;
+} */
+
 .mattress-image {
   position: absolute;
   width: 992px;
@@ -21,6 +25,21 @@
   line-height: 60px;
   letter-spacing: 1.39487px;
   color: #000000;
+}
+
+.small-welcome-text {
+  position: absolute;
+  width: 362px;
+  height: 100px;
+  left: 113px;
+  top: 467px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1.13px;
+  color: #747474;
 }
 
 .mattress-shadow {
