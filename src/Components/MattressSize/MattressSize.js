@@ -9,6 +9,7 @@ import fullXl from './Rectangle 4 Copy 20.png'
 import queen from './Rectangle 4 Copy 22.png'
 import king from './Rectangle 4 Copy 23.png'
 import calKing from './Rectangle 4 Copy 24.png'
+import twinText from './Actual_ 37.5 x 74 in.png'
 
 class MattressSize extends Component {
   render() {
@@ -24,6 +25,7 @@ class MattressSize extends Component {
         <img src={queen} className='queen' alt='icon for queen size bed' />
         <img src={king} className='king' alt='icon for king size bed' />
         <img src={calKing} className='cal-king' alt='icon for california king size bed' />
+        <img src={twinText} className='twin-text' alt='text to describe the twin mattress' />
       </div>
     )
   }
