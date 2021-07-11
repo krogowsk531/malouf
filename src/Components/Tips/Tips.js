@@ -4,7 +4,7 @@ import soulMateText from './How to Find Your Mat.png'
 import tip1 from './Group 2.png'
 import tip2 from './Group 2 Copy.png'
 import tip3 from './Group 2 Copy 2.png'
-
+import './Tips.css';
 
 class Tips extends Component {
   render() {

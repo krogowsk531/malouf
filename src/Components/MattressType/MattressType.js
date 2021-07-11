@@ -6,6 +6,8 @@ import spring from './Spring Feature Copy.png'
 import hybrid from './Hybrid Feature Copy.png'
 import text from './Whats Your Type.png'
 import whiteLine from './Line 7 Copy.png'
+import './MattressType.css';
+
 
 class MattressType extends Component {
   render() {

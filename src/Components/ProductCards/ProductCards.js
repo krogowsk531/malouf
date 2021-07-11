@@ -11,6 +11,8 @@ import greenTile2 from './Group 4 Copy.png'
 import yellowTile2 from './Group Copy.png'
 import blueTile2 from './Rectangle 5.png'
 import easySleepText from './Sleep will be so eas.png'
+import './ProductCards.css';
+
 
 
 class ProductCards extends Component {

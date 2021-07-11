@@ -10,6 +10,8 @@ import queen from './Rectangle 4 Copy 22.png'
 import king from './Rectangle 4 Copy 23.png'
 import calKing from './Rectangle 4 Copy 24.png'
 import twinText from './Actual_ 37.5 x 74 in.png'
+import './MattressSize.css';
+
 
 class MattressSize extends Component {
   render() {
