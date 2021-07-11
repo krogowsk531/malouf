@@ -3,6 +3,7 @@ import './App.css';
 import WelcomeArea from '../WelcomeArea/WelcomeArea';
 import MattressSize from '../MattressSize/MattressSize';
 import MattressType from '../MattressType/MattressType';
+import ProductCards from '../ProductCards/ProductCards';
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
         <WelcomeArea />
         <MattressSize />
         <MattressType />
+        <ProductCards />
       </div>
     )
   }
