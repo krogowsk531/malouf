@@ -1,0 +1,116 @@
+.white-background {
+  position: absolute;
+  width: 1475px;
+  height: 1675px;
+  left: -15px;
+  top: 628px;
+  background: #F7F7F7;
+}
+
+.tile-info {
+  position: absolute;
+  width: 365px;
+  height: 365px;
+  left: 83px;
+  top: 803px;
+  mix-blend-mode: normal;
+  opacity: 0.97;
+}
+
+.purple-tile {
+  position: absolute;
+  width: 362px;
+  height: 362px;
+  left: 505px;
+  top: 1044px;
+}
+
+.yellow-tile {
+  position: absolute;
+  width: 362px;
+  height: 362px;
+  left: 930px;
+  top: 963px;
+}
+
+.blue-tile {
+  position: absolute;
+  width: 362px;
+  height: 362px;
+  left: 78px;
+  top: 1222px;
+  background: #00B3E2;
+}
+
+.dream-text {
+  position: absolute;
+  width: 320px;
+  height: 204px;
+  left: 120px;
+  top: 1269px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 51px;
+  /* or 127% */
+  letter-spacing: 0.986046px;
+  color: #FFFFFF;
+}
+
+.green-tile {
+  position: absolute;
+  width: 362px;
+  height: 362px;
+  left: 78px;
+  top: 1640px;
+}
+
+.colbalt-tile {
+  position: absolute;
+  width: 362px;
+  height: 362px;
+  left: 505px;
+  top: 1462px;
+}
+
+.green-tile-two {
+  position: absolute;
+  width: 362px;
+  height: 362px;
+  left: 930px;
+  top: 1380px;
+}
+
+.yellow-tile-two {
+  position: absolute;
+  width: 362px;
+  height: 362px;
+  left: 503px;
+  top: 1882px;
+}
+
+.blue-tile-two {
+  position: absolute;
+  width: 362px;
+  height: 362px;
+  left: 930px;
+  top: 1797px;
+  background: #00B3E2;
+}
+
+.easy-sleep-text {
+  position: absolute;
+  width: 269px;
+  height: 255px;
+  left: 975px;
+  top: 1849px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 51px;
+  /* or 127% */
+  letter-spacing: 0.986046px;
+  color: #FFFFFF;
+}
