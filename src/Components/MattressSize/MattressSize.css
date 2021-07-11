@@ -128,3 +128,115 @@ body {
   letter-spacing: 1.13px;
   color: #000000;
 }
+
+.twin-text {
+  position: absolute;
+  width: 38px;
+  height: 17px;
+  left: 751px;
+  top: 2619px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.727759px;
+  color: #000000;
+}
+
+.twin-xl-text {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  left: 822px;
+  top: 2619px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.727759px;
+  color: #000000;
+}
+
+.full-text {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  left: 913px;
+  top: 2619px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.727759px;
+  color: #000000;
+}
+
+.full-xl-text {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  left: 989px;
+  top: 2619px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.727759px;
+  color: #000000;
+}
+
+.queen-text {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  left: 1080px;
+  top: 2619px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.727759px;
+  color: #000000;
+}
+
+.king-text {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  left: 778px;
+  top: 2758px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.727759px;
+  color: #000000;
+}
+
+.cal-king-text {
+  position: absolute;
+  width: 84px;
+  height: 17px;
+  left: 881px;
+  top: 2758px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.727759px;
+  color: #000000;
+}
