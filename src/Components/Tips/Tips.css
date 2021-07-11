@@ -1,0 +1,48 @@
+.thin-blue-line {
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  left: 259px;
+  top: 4176px;
+  border: 3px solid #00B3E2;
+}
+
+.soul-mate-text {
+  position: absolute;
+  width: 355px;
+  height: 147px;
+  left: 258px;
+  top: 4211px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  /* or 122% */
+  letter-spacing: 0.87px;
+  color: #000000;
+}
+
+.tip-one {
+  position: absolute;
+  width: 523px;
+  height: 522px;
+  left: 699px;
+  top: 4012px;
+}
+
+.tip-two {
+  position: absolute;
+  width: 523px;
+  height: 523px;
+  left: 153px;
+  top: 4557px;
+}
+
+.tip-three {
+  position: absolute;
+  width: 523px;
+  height: 523px;
+  left: 700px;
+  top: 4557px;
+}
