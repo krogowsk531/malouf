@@ -4,6 +4,7 @@ import WelcomeArea from '../WelcomeArea/WelcomeArea';
 import MattressSize from '../MattressSize/MattressSize';
 import MattressType from '../MattressType/MattressType';
 import ProductCards from '../ProductCards/ProductCards';
+import Tips from '../Tips/Tips';
 
 
 class App extends Component {
