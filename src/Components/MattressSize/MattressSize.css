@@ -6,3 +6,105 @@
   top: 2433px;
   background: #707070;
 }
+
+.blue-line {
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  left: 756px;
+  top: 2407px;
+  border: 3px solid #00B3E2;
+}
+
+.guide-text {
+  position: absolute;
+  width: 588px;
+  height: 69px;
+  left: 746px;
+  top: 2432px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 51px;
+  /* or 127% */
+  letter-spacing: 0.986046px;
+  color: #000000;
+}
+
+.twin {
+  position: absolute;
+  width: 39.31px;
+  height: 74.18px;
+  left: 746px;
+  top: 2529px;
+  background: #0061A6;
+  border: 2.04px solid #0061A6;
+  border-radius: 5.44px;
+}
+
+.twin-xl {
+  position: absolute;
+  width: 39px;
+  height: 82px;
+  left: 825px;
+  top: 2520px;
+  background: #B9E2F5;
+  border: 2.04px solid #0061A6;
+  border-radius: 5.44px;
+}
+
+.full {
+  position: absolute;
+  width: 49px;
+  height: 74px;
+  left: 899px;
+  top: 2528px;
+  background: #B9E2F5;
+  border: 2.04px solid #0061A6;
+  border-radius: 5.44px;
+}
+
+.full-xl {
+  position: absolute;
+  width: 49px;
+  height: 82px;
+  left: 987px;
+  top: 2521px;
+  background: #B9E2F5;
+  border: 2.04px solid #0061A6;
+  border-radius: 5.44px;
+}
+
+.queen {
+  position: absolute;
+  width: 58px;
+  height: 82px;
+  left: 1075px;
+  top: 2521px;
+  background: #B9E2F5;
+  border: 2.04px solid #0061A6;
+  border-radius: 5.44px;
+}
+
+.king {
+  position: absolute;
+  width: 77px;
+  height: 82px;
+  left: 753px;
+  top: 2658px;
+  background: #B9E2F5;
+  border: 2.04px solid #0061A6;
+  border-radius: 5.44px;
+}
+
+.cal-king {
+  position: absolute;
+  width: 77px;
+  height: 89px;
+  left: 870px;
+  top: 2652px;
+  background: #B9E2F5;
+  border: 2.04px solid #0061A6;
+  border-radius: 5.44px;
+}
