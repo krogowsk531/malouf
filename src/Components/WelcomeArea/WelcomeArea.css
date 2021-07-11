@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-/* body {
+body {
   background: #F2F2F2;
-} */
+}
 
 .mattress-image {
   position: absolute;
-  /* width: 992px; */
-  /* height: 630px; */
-  width: 1000px;
-  height: 750px;
-  left: 438px;
+  width: 992px;
+  height: 630px;
+  left: 464px;
   top: 210px;
+  background: url('./Linenspa mattresses.png');
 }
 
 .welcome-text {
@@ -46,13 +45,12 @@
 
 .mattress-shadow {
   position: absolute;
-  /* width: 752px; */
-  width: 711px;
+  width: 595px;
   height: 628px;
-  left: 727px;
+  left: 789px;
   top: 153px;
-  /* background: #00B3E2; */
-  /* box-shadow: 17px 8px 11px rgba(0, 0, 0, 0.176913); */
+  background: #00B3E2;
+  box-shadow: 17px 8px 11px rgb(0 0 0 / 18%);
 }
 
 .blue-box {
