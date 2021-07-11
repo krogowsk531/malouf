@@ -14,6 +14,7 @@ class App extends Component {
         <MattressSize />
         <MattressType />
         <ProductCards />
+        <Tips />
       </div>
     )
   }
