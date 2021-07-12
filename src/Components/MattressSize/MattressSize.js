@@ -25,7 +25,9 @@ class MattressSize extends Component {
   render() {
     return (
       <div>
-        <div className='carousel'></div>
+        <div className='carousel'>
+          <Slide photo={ imgUrl } />
+        </div>
         <img src={twinImg} className='twin-image' alt='twin bed' />
         <img src={blueLine} className='blue-line' alt='blue line for styling' />
         <img src={guideText} className='guide-text' alt='text for A Guide for Mattress Sizes' />
