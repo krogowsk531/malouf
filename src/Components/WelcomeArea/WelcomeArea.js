@@ -11,11 +11,11 @@ class WelcomeArea extends Component {
   render() {
     return (
       <div>
+        <img src={shadow} className='mattress-shadow' alt='blue shadow box' />
+        <img src={mattress} className='mattress-image' alt='mattress' />
         <img src={square} className='blue-box' alt='blue square box' />
         <img src={welcome} className='welcome-text' alt='welcome message' />
         <img src={linenspa} className='small-welcome-text' alt='Info about Linenspa mattresses'/>
-        <img src={shadow} className='mattress-shadow' alt='blue shadow box' />
-        <img src={mattress} className='mattress-image' alt='mattress' />
       </div>
     )
   }
