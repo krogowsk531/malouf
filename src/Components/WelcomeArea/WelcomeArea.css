@@ -7,10 +7,9 @@ body {
 .mattress-image {
   position: absolute;
   width: 992px;
-  height: 630px;
-  left: 464px;
+  height: 736px;
+  left: 437px;
   top: 210px;
-  /* background: url('./Linenspa mattresses.png'); */
 }
 
 .welcome-text {
@@ -45,9 +44,9 @@ body {
 
 .mattress-shadow {
   position: absolute;
-  width: 595px;
-  height: 599px;
-  left: 789px;
+  width: 688px;
+  height: 691px;
+  left: 740px;
   top: 153px;
   background: #00B3E2;
   box-shadow: 17px 8px 11px rgb(0 0 0 / 18%);
