@@ -28,6 +28,8 @@ class MattressSize extends Component {
     this.state = {
       currentImageIndex: 0
     }
+    this.nextSlide = this.nextSlide.bind(this);
+    this.previousSlide = this.previousSlide.bind(this);
   }
   
   previousSlide () {
