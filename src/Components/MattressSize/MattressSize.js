@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import greySquare from './Rectangle 3 Copy 5.png'
 import blueLine from './Line 7 Copy 3.png'
 import guideText from './A Guide to Mattress.png'
 import twin from './Rectangle 4 Copy 13.png'
@@ -18,6 +17,7 @@ import fullXlText from './FULL XL Copy.png'
 import queenText from './Queen Copy.png'
 import kingText from './King Copy.png'
 import calKingText from './Cal King Copy.png'
+import twinImg from './BedShot.png'
 
 
 
@@ -25,7 +25,8 @@ class MattressSize extends Component {
   render() {
     return (
       <div>
-        <img src={greySquare} className='grey-square' alt='grey square box' />
+        <div className='carousel'></div>
+        <img src={twinImg} className='twin-image' alt='twin bed' />
         <img src={blueLine} className='blue-line' alt='blue line for styling' />
         <img src={guideText} className='guide-text' alt='text for A Guide for Mattress Sizes' />
         <img src={twin} className='twin' alt='icon for twin size bed' />
