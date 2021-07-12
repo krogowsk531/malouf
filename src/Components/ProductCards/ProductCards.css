@@ -1,12 +1,3 @@
-.white-background {
-  position: absolute;
-  width: 1475px;
-  height: 1675px;
-  left: -15px;
-  top: 628px;
-  background: #F7F7F7;
-}
-
 .tile-info {
   position: absolute;
   width: 365px;

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import whiteBackground from './Rectangle 3 Copy 4.png'
 import tileInfo from './CardBack-white Copy 2 (1).png'
 import purpleTile from './Group 3.png'
 import yellowTile from './Group.png'
@@ -19,7 +18,6 @@ class ProductCards extends Component {
   render() {
     return (
       <div>
-        <img src={whiteBackground} className='white-background' alt='white rectangle to hold the product cards' />
         <img src={tileInfo} className='tile-info' alt='info about the product on hover' />
         <img src={purpleTile} className='purple-tile' alt='info about gel memory foam mattress' />
         <img src={yellowTile} className='yellow-tile' alt='info about inner spring mattress' />
