@@ -1,8 +1,6 @@
 .blue-rectangle {
-  position: relative;
-  /* position: absolute; */
-  /* width: 1475px; */
-  width: 100%;
+  position: absolute;
+  width: 1392px;
   height: 795px;
   left: -15px;
   top: 3120px;
@@ -43,9 +41,9 @@
 
 .text {
   position: absolute;
-  width: 683px;
-  height: 69px;
-  left: 340px;
+  width: 360px;
+  height: 41px;
+  left: 513px;
   top: 3211px;
   font-family: Montserrat;
   font-style: normal;
@@ -62,8 +60,9 @@
 .white-line {
   position: absolute;
   width: 100px;
-  height: 3px;
+  height: .1px;
   left: 629px;
   top: 3305px;
   border: 3px solid #FFFFFF;
 }
+

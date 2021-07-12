@@ -13,9 +13,9 @@ class MattressType extends Component {
   render() {
     return (
       <div>
+        <img src={rectangle} className='blue-rectangle' alt='blue rectangle box' />
         <img src={text} className='text' alt='text whats your type' />
         <img src={whiteLine} className='white-line' alt='white line for style' />
-        <img src={rectangle} className='blue-rectangle' alt='blue rectangle box' />
         <img src={memoryFoam} className='memory-foam' alt='memory foam mattress info' />
         <img src={latexFoam} className='latex-foam' alt='latex foam mattress info' />
         <img src={spring} className='spring' alt='spring mattress info' />
