@@ -22,6 +22,14 @@ import twinImg from './BedShot.png'
 
 
 class MattressSize extends Component {
+  constructor (props) {
+    super(props);
+    
+    this.state = {
+      currentImageIndex: 0
+    }
+  }
+  
   render() {
     return (
       <div>
