@@ -26,7 +26,17 @@ class MattressSize extends Component {
     return (
       <div>
         <div className='carousel'>
+          <Arrow 
+            direction='left'
+            clickFunction={ this.previousSlide }
+            character='&#9664'
+          />
           <Slide photo={ imgUrl } />
+          <Arrow 
+            direction='right'
+            clickFunction={ this.nextSlide }
+            character='&#9654'
+          />
         </div>
         <img src={twinImg} className='twin-image' alt='twin bed' />
         <img src={blueLine} className='blue-line' alt='blue line for styling' />
