@@ -1,7 +1,7 @@
 .thin-blue-line {
   position: absolute;
   width: 100px;
-  height: 3px;
+  height: .1px;
   left: 259px;
   top: 4176px;
   border: 3px solid #00B3E2;
@@ -9,10 +9,10 @@
 
 .soul-mate-text {
   position: absolute;
-  width: 355px;
-  height: 147px;
-  left: 258px;
-  top: 4211px;
+  width: 274px;
+  height: 134px;
+  left: 278px;
+  top: 4218px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
