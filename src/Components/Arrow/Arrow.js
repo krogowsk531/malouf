@@ -1,7 +1,9 @@
-const Arrow = ({ direction, clickFunction, character }) => (
+const Arrow = ({ direction, clickFunction, glyph }) => (
   <div 
     className={ `slide-arrow ${direction}` }
     onClick={ clickFunction }>
-    {character}
+    {glyph}
   </div>
 )
+
+export default Arrow;

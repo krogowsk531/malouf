@@ -1,6 +1,6 @@
-const Slider = ({ photo }) => {
+const Slider = ({ url }) => {
   const styles = {
-    backgroundImage: `url(${photo})`,
+    backgroundImage: `url(${url})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center'
   }
@@ -8,3 +8,5 @@ const Slider = ({ photo }) => {
     <div className='image-slide' style={styles}></div>
   )
 }
+
+export default Slider;

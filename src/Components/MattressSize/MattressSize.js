@@ -18,8 +18,18 @@ import queenText from './Queen Copy.png'
 import kingText from './King Copy.png'
 import calKingText from './Cal King Copy.png'
 import twinImg from './BedShot.png'
+import Arrow from '../Arrow/Arrow'
+import Slider from '../Slider/Slider'
+import twinXlImg from './twinxl.jpg'
+import fullImg from './fullBed.jpg'
+import fullXlImg from './fullXl.jpg'
+import queenImg from './queenBed.jpg'
+import kingImg from './kingBed.jpg'
+import calKingImg from './calKingBed.jpg'
+import rightArrow from './rightArrow.png'
+import leftArrow from './leftArrow.png'
 
-
+const imgUrls = [twinImg, twinXlImg, fullImg, fullXlImg, queenImg, kingImg, calKingImg]
 
 class MattressSize extends Component {
   constructor (props) {
@@ -61,13 +71,13 @@ class MattressSize extends Component {
           <Arrow 
             direction='left'
             clickFunction={ this.previousSlide }
-            character='&#9664'
+            glyph='&#9664;'
           />
-          <Slide photo={ imgUrls[this.state.currentImageIndex] } />
+          <Slider url={ imgUrls[this.state.currentImageIndex] } />
           <Arrow 
             direction='right'
             clickFunction={ this.nextSlide }
-            character='&#9654'
+            glyph='&#9654;'
           />
         </div>
         <img src={twinImg} className='twin-image' alt='twin bed' />
