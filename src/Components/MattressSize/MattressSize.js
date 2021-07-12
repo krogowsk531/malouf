@@ -30,6 +30,28 @@ class MattressSize extends Component {
     }
   }
   
+  previousSlide () {
+    const lastIndex = imgUrls.length -1;
+    const { currentImageIndex } = this.state;
+    const shouldResetIndex = currentImageIndex === 0;
+    const index = shouldResetIndex ? lastIndex : currentImageIndex -1;
+    
+    this.setState({
+      currentImageIndex: index 
+    });
+  }
+  
+  nextSlide () {
+    const lastIndex = imgUrls.length -1;
+    const { currentImageIndex } = this.state;
+    const shouldResetIndex = currentImageIndex === lastIndex;
+    const index = shouldResetIndex ? 0 : currentImageIndex + 1;
+    
+    this.setState({
+      currentImageIndex: index 
+    })
+  }
+  
   render() {
     return (
       <div>
@@ -39,7 +61,7 @@ class MattressSize extends Component {
             clickFunction={ this.previousSlide }
             character='&#9664'
           />
-          <Slide photo={ imgUrl } />
+          <Slide photo={ imgUrls[this.state.currentImageIndex] } />
           <Arrow 
             direction='right'
             clickFunction={ this.nextSlide }
