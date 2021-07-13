@@ -1,4 +1,4 @@
-.tile-info {
+/* .tile-info {
   position: absolute;
   width: 376px;
   height: 365px;
@@ -45,11 +45,11 @@
   font-size: 40px;
   line-height: 51px;
   /* or 127% */
-  letter-spacing: 0.986046px;
+  /* letter-spacing: 0.986046px;
   color: #FFFFFF;
-}
+} */
 
-.green-tile {
+/* .green-tile {
   position: absolute;
   width: 362px;
   height: 362px;
@@ -102,6 +102,6 @@
   font-size: 40px;
   line-height: 51px;
   /* or 127% */
-  letter-spacing: 0.986046px;
+  /* letter-spacing: 0.986046px;
   color: #FFFFFF;
-}
+}  */

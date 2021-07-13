@@ -29,45 +29,45 @@ import calKingImg from './calKingBed.jpg'
 import rightArrow from './rightArrow.png'
 import leftArrow from './leftArrow.png'
 
-const imgUrls = [twinImg, twinXlImg, fullImg, fullXlImg, queenImg, kingImg, calKingImg]
+// const imgUrls = ['twinImg', 'twinXlImg', 'fullImg', 'fullXlImg', 'queenImg', 'kingImg', 'calKingImg']
 
 class MattressSize extends Component {
-  constructor (props) {
-    super(props);
+  // constructor (props) {
+  //   super(props);
     
-    this.state = {
-      currentImageIndex: 0
-    }
-    this.nextSlide = this.nextSlide.bind(this);
-    this.previousSlide = this.previousSlide.bind(this);
-  }
-  
-  previousSlide () {
-    const lastIndex = imgUrls.length -1;
-    const { currentImageIndex } = this.state;
-    const shouldResetIndex = currentImageIndex === 0;
-    const index = shouldResetIndex ? lastIndex : currentImageIndex -1;
-    
-    this.setState({
-      currentImageIndex: index 
-    });
-  }
-  
-  nextSlide () {
-    const lastIndex = imgUrls.length -1;
-    const { currentImageIndex } = this.state;
-    const shouldResetIndex = currentImageIndex === lastIndex;
-    const index = shouldResetIndex ? 0 : currentImageIndex + 1;
-    
-    this.setState({
-      currentImageIndex: index 
-    })
-  }
-  
+  //   this.state = {
+  //     currentImageIndex: 0
+  //   }
+  //   this.nextSlide = this.nextSlide.bind(this);
+  //   this.previousSlide = this.previousSlide.bind(this);
+  // }
+  // 
+  // previousSlide () {
+  //   const lastIndex = imgUrls.length -1;
+  //   const { currentImageIndex } = this.state;
+  //   const shouldResetIndex = currentImageIndex === 0;
+  //   const index = shouldResetIndex ? lastIndex : currentImageIndex -1;
+  // 
+  //   this.setState({
+  //     currentImageIndex: index 
+  //   });
+  // }
+  // 
+  // nextSlide () {
+  //   const lastIndex = imgUrls.length -1;
+  //   const { currentImageIndex } = this.state;
+  //   const shouldResetIndex = currentImageIndex === lastIndex;
+  //   const index = shouldResetIndex ? 0 : currentImageIndex + 1;
+  // 
+  //   this.setState({
+  //     currentImageIndex: index 
+  //   })
+  // }
+  // 
   render() {
     return (
       <div>
-        <div className='carousel'>
+        {/*<div className='carousel'>
           <Arrow 
             direction='left'
             clickFunction={ this.previousSlide }
@@ -79,7 +79,7 @@ class MattressSize extends Component {
             clickFunction={ this.nextSlide }
             glyph='&#9654;'
           />
-        </div>
+        </div>*/}
         <img src={twinImg} className='twin-image' alt='twin bed' />
         <img src={blueLine} className='blue-line' alt='blue line for styling' />
         <img src={guideText} className='guide-text' alt='text for A Guide for Mattress Sizes' />

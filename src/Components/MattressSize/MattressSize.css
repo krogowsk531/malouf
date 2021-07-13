@@ -1,3 +1,10 @@
+/* $desktop:1200px;
+$laptop:1024px;
+$tablet:768px;
+$phone:480px;
+
+@media screen and (max-width: $desktop) and (min-width: $laptop) {
+  
 body {
   background: #F2F2F2;
 }
@@ -32,7 +39,7 @@ body {
   font-size: 40px;
   line-height: 51px;
   /* or 127% */
-  letter-spacing: 0.986046px;
+  /* letter-spacing: 0.986046px;
   color: #000000;
 }
 
@@ -125,11 +132,11 @@ body {
   font-size: 14px;
   line-height: 25px;
   /* or 179% */
-  letter-spacing: 1.13px;
+  /* letter-spacing: 1.13px;
   color: #000000;
-}
+} */
 
-.twin-text {
+/* .twin-text {
   position: absolute;
   width: 32px;
   height: 11px;
@@ -141,11 +148,11 @@ body {
   font-size: 12px;
   line-height: 17px;
   /* identical to box height, or 142% */
-  letter-spacing: 0.727759px;
+  /* letter-spacing: 0.727759px;
   color: #000000;
-}
+} */
 
-.twin-xl-text {
+/* .twin-xl-text {
   position: absolute;
   width: 54px;
   height: 11px;
@@ -157,11 +164,11 @@ body {
   font-size: 12px;
   line-height: 17px;
   /* identical to box height, or 142% */
-  letter-spacing: 0.727759px;
+  /* letter-spacing: 0.727759px;
   color: #000000;
-}
+} */ 
 
-.full-text {
+/* .full-text {
   position: absolute;
   width: 36px;
   height: 11px;
@@ -173,11 +180,11 @@ body {
   font-size: 12px;
   line-height: 17px;
   /* identical to box height, or 142% */
-  letter-spacing: 0.727759px;
+  /* letter-spacing: 0.727759px;
   color: #000000;
-}
+} */ 
 
-.full-xl-text {
+/* .full-xl-text {
   position: absolute;
   width: 56px;
   height: 11px;
@@ -189,11 +196,11 @@ body {
   font-size: 12px;
   line-height: 17px;
   /* identical to box height, or 142% */
-  letter-spacing: 0.727759px;
+  /* letter-spacing: 0.727759px;
   color: #000000;
-}
+} */ 
 
-.queen-text {
+/* .queen-text {
   position: absolute;
   width: 47px;
   height: 12px;
@@ -205,11 +212,11 @@ body {
   font-size: 12px;
   line-height: 17px;
   /* identical to box height, or 142% */
-  letter-spacing: 0.727759px;
+  /* letter-spacing: 0.727759px;
   color: #000000;
-}
+} */ 
 
-.king-text {
+/* .king-text {
   position: absolute;
   width: 35px;
   height: 13px;
@@ -221,11 +228,11 @@ body {
   font-size: 12px;
   line-height: 17px;
   /* identical to box height, or 142% */
-  letter-spacing: 0.727759px;
+  /* letter-spacing: 0.727759px;
   color: #000000;
-}
+} */
 
-.cal-king-text {
+/* .cal-king-text {
   position: absolute;
   width: 62px;
   height: 13px;
@@ -237,6 +244,12 @@ body {
   font-size: 12px;
   line-height: 17px;
   /* identical to box height, or 142% */
-  letter-spacing: 0.727759px;
+  /* letter-spacing: 0.727759px;
   color: #000000;
-}
+}  */ 
+
+/* @media screen and (max-width: 480px) {
+  body {
+    background-color: black;
+  }
+} */
