@@ -12,7 +12,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <WelcomeArea />
+        {/* <WelcomeArea />*/}
+        <WelcomeAreaHorizontalTab />
         <MattressSize />
         <MattressType />
         {/*<ProductCards /> */}

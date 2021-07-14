@@ -527,7 +527,7 @@ $horizontalTablet */
   color: #000000;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 1024px) {
   .mattress-image {
     position: absolute;
     width: 993px;
@@ -643,10 +643,10 @@ $horizontalTablet */
 
   .tile-info-ht {
     position: absolute;
-    width: 284px;
-    height: 285px;
-    left: 44px;
-    top: 633px;
+    width: 291px;
+    height: 295px;
+    left: 48px;
+    top: 733px;
     mix-blend-mode: normal;
     opacity: 0.97;
   }
@@ -672,23 +672,22 @@ $horizontalTablet */
     position: absolute;
     width: 282px;
     height: 282px;
-    left: 40px;
-    top: 959px;
+    left: 52px;
+    top: 1063px;
     background: #00B3E2;
   }
 
   .dream-text-ht {
     position: absolute;
-    width: 201px;
-    height: 235px;
-    left: 73px;
-    top: 991px;
+    width: 221px;
+    height: 150px;
+    left: 78px;
+    top: 1109px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 40px;
-    /* or 125% */
     letter-spacing: 0.7px;
     color: #FFFFFF;
   }
@@ -1059,14 +1058,14 @@ $horizontalTablet */
     position: absolute;
     width: 282px;
     height: 282px;
-    left: 37px;
-    top: 1287px;
+    left: 52px;
+    top: 1390px;
   }
   
   .purple-tile-text-ht {
     position: absolute;
-    width: 193px;
-    height: 53px;
+    width: 171px;
+    height: 30px;
     left: 391px;
     top: 1044px;
     font-family: Montserrat;
@@ -1080,8 +1079,8 @@ $horizontalTablet */
   
   .colbalt-tile-text-ht {
     position: absolute;
-    width: 201px;
-    height: 53px;
+    width: 176px;
+    height: 31px;
     left: 390px;
     top: 1370px;
     font-family: Montserrat;
@@ -1089,7 +1088,6 @@ $horizontalTablet */
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    /* or 136% */
     letter-spacing: 1.30188px;
     color: #FFFFFF;
   }
@@ -1104,16 +1102,15 @@ $horizontalTablet */
   
   .yellow-tile-text-ht {
     position: absolute;
-    width: 241px;
-    height: 53px;
-    left: 720px;
-    top: 1002px;
+    width: 191px;
+    height: 15px;
+    left: 725px;
+    top: 1003px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    /* or 136% */
     letter-spacing: 1.30188px;
     color: #FFFFFF;
   }
@@ -1128,18 +1125,33 @@ $horizontalTablet */
   
   .green-tile-text-ht {
     position: absolute;
-    width: 241px;
-    height: 87px;
+    width: 229px;
+    height: 32px;
     left: 720px;
-    top: 1300px;
+    top: 1302px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    /* or 136% */
     letter-spacing: 1.30188px;
     color: #FFFFFF;
+  }
+  
+  .purple-tile-three-ht {
+    position: absolute;
+    width: 282px;
+    height: 282px;
+    left: 372px;
+    top: 821px;
+  }
+  
+  .colbalt-tile-two-ht {
+    position: absolute;
+    width: 282px;
+    height: 282px;
+    left: 372px;
+    top: 1146px;
   }
 }
 
