@@ -5,6 +5,7 @@ import MattressSize from '../MattressSize/MattressSize';
 import MattressType from '../MattressType/MattressType';
 import ProductCards from '../ProductCards/ProductCards';
 import Tips from '../Tips/Tips';
+import ProductCardsHorizontalTab from '../ProductCardsHorizontalTab/ProductCardsHorizontalTab'
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <MattressSize />
         <MattressType />
         <ProductCards />
+        <ProductCardsHorizontalTab />
         <Tips />
       </div>
     )
