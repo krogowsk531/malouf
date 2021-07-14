@@ -55,11 +55,11 @@ $horizontalTablet */
 }
 
 .blue-box {
-  position: absolute;
+  position: relative;
   width: 103px;
   height: 87px;
   left: -20px;
-  top: 213px;
+  top: 174px;
   background: #0061A6;
 }
 
@@ -530,58 +530,60 @@ $horizontalTablet */
 @media(max-width: 768px) {
   .mattress-image {
     position: absolute;
-    width: 697px;
-    height: 437px;
-    left: 382px;
-    top: 192px;
+    width: 993px;
+    height: 641px;
+    left: 533px;
+    top: 179px;
   }
+
 
   .welcome-text {
     position: absolute;
-    width: 393px;
-    height: 184px;
-    left: 101px;
+    width: 575px;
+    height: 270px;
+    left: 124px;
     top: 223px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 46px;
-    /* or 115% */
     letter-spacing: 0.986046px;
     color: #000000;
   }
 
   .small-welcome-text {
     position: absolute;
-    width: 241px;
-    height: 148px;
-    left: 104px;
-    top: 436px;
+    width: 384px;
+    height: 109px;
+    left: 120px;
+    top: 524px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    /* or 150% */
     letter-spacing: 0.6px;
     color: #747474;
   }
 
   .mattress-shadow {
     position: absolute;
-    width: 528px;
-    height: 435px;
-    left: 595px;
-    top: 153px;
+    width: 608px;
+    height: 619px;
+    left: 852px;
+    top: 112px;
     background: #00B3E2;
-    box-shadow: 17px 8px 11px rgba(0, 0, 0, 0.176913);
+    box-shadow: 17px 8px 11px rgb(0 0 0 / 18%);
   }
+
+
+
 
   .blue-box {
     position: absolute;
-    width: 85px;
-    height: 72px;
+    width: 98px;
+    height: 96px;
     left: -15px;
     top: 228px;
     background: #0061A6;
