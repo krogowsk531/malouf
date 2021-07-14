@@ -641,7 +641,7 @@ $horizontalTablet */
     background: #00B3E2;
   }
 
-  .tile-info {
+  .tile-info-ht {
     position: absolute;
     width: 284px;
     height: 285px;
@@ -651,13 +651,12 @@ $horizontalTablet */
     opacity: 0.97;
   }
 
-  .purple-tile {
+  .purple-tile-ht {
     position: absolute;
     width: 282px;
     height: 282px;
     left: 372px;
     top: 821px;
-    /* background: url(Image.png); */
   }
 
   .yellow-tile {
@@ -669,7 +668,7 @@ $horizontalTablet */
     /* background: url(Image.png); */
   }
 
-  .blue-tile {
+  .blue-tile-ht {
     position: absolute;
     width: 282px;
     height: 282px;
@@ -678,7 +677,7 @@ $horizontalTablet */
     background: #00B3E2;
   }
 
-  .dream-text {
+  .dream-text-ht {
     position: absolute;
     width: 201px;
     height: 235px;
@@ -703,13 +702,12 @@ $horizontalTablet */
     /* background: url(Image.png); */
   }
 
-  .colbalt-tile {
+  .colbalt-tile-ht {
     position: absolute;
     width: 282px;
     height: 282px;
     left: 372px;
     top: 1146px;
-    /* background: url(Image.png); */
   }
 
   /* .green-tile-two {
@@ -720,16 +718,15 @@ $horizontalTablet */
     top: 1380px;
   } */
 
-  .yellow-tile-two {
+  .yellow-tile-two-ht {
     position: absolute;
     width: 282px;
     height: 282px;
-    left: 371px;
-    top: 1473px;
-    /* background: url(Image.png); */
+    left: 703px;
+    top: 758px;
   }
 
-  .blue-tile-two {
+  .blue-tile-two-ht {
     position: absolute;
     width: 282px;
     height: 282px;
@@ -738,7 +735,7 @@ $horizontalTablet */
     background: #00B3E2;
   }
 
-  .easy-sleep-text {
+  .easy-sleep-text-ht {
     position: absolute;
     width: 209px;
     height: 198px;
@@ -1057,7 +1054,96 @@ $horizontalTablet */
     letter-spacing: 0.727759px;
     color: #000000;
   }
+  
+  .purple-tile-2-ht {
+    position: absolute;
+    width: 282px;
+    height: 282px;
+    left: 37px;
+    top: 1287px;
+  }
+  
+  .purple-tile-text-ht {
+    position: absolute;
+    width: 193px;
+    height: 53px;
+    left: 391px;
+    top: 1044px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1.30188px;
+    color: #FFFFFF;
+  }
+  
+  .colbalt-tile-text-ht {
+    position: absolute;
+    width: 201px;
+    height: 53px;
+    left: 390px;
+    top: 1370px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* or 136% */
+    letter-spacing: 1.30188px;
+    color: #FFFFFF;
+  }
+  
+  .yellow-tile-three-ht {
+    position: absolute;
+    width: 282px;
+    height: 282px;
+    left: 371px;
+    top: 1473px;
+  }
+  
+  .yellow-tile-text-ht {
+    position: absolute;
+    width: 241px;
+    height: 53px;
+    left: 720px;
+    top: 1002px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* or 136% */
+    letter-spacing: 1.30188px;
+    color: #FFFFFF;
+  }
+  
+  .green-tile-three-ht {
+    position: absolute;
+    width: 282px;
+    height: 282px;
+    left: 703px;
+    top: 1082px;
+  }
+  
+  .green-tile-text-ht {
+    position: absolute;
+    width: 241px;
+    height: 87px;
+    left: 720px;
+    top: 1300px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* or 136% */
+    letter-spacing: 1.30188px;
+    color: #FFFFFF;
+  }
 }
+
+
 
 
 
