@@ -528,6 +528,10 @@ $horizontalTablet */
 }
 
 @media(max-width: 1024px) {
+  
+  body {
+    background: #FFFFFF;
+  }
   .mattress-image {
     position: absolute;
     width: 993px;
@@ -1153,7 +1157,65 @@ $horizontalTablet */
     left: 372px;
     top: 1146px;
   }
+  
+  .good-things-text {
+    position: absolute;
+    width: 322px;
+    height: 155px;
+    left: 85px;
+    top: 215px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0.986046px;
+    color: #000000;
+  }
+  
+  .linenspa-text {
+    position: absolute;
+    width: 211px;
+    height: 97px;
+    left: 86px;
+    top: 397px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #747474;
+  }
+  
+  .welcome-bed-img {
+    position: absolute;
+    width: 505px;
+    height: 364px;
+    left: 350px;
+    top: 192px
+  }
+  
+  .welcome-turquoise-square {
+    position: absolute;
+    width: 344px;
+    height: 400px;
+    left: 510px;
+    top: 156px;
+    background: #00B3E2;
+    box-shadow: 17px 8px 11px rgb(0 0 0 / 18%);
+  }
+  
+  .welcome-blue-square {
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    left: -15px;
+    top: 215px;
+    background: #0061A6;
+  }
 }
+
 
 
 

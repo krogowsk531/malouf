@@ -13,8 +13,8 @@ class WelcomeAreaHorizontalTab extends Component {
       <div>
         <img src={goodThings} className='good-things-text' alt='good things come in tall but manageable packages' />
         <img src={about} className='linenspa-text' alt='Linenspa mattresses feature a wide variety of feels and fibers' />
-        <img src={bedImg} className='welcome-bed-img' alt='bed with pillows' />
         <img src={turquoiseSquare} className='welcome-turquoise-square' alt='turquoise shadow' />
+        <img src={bedImg} className='welcome-bed-img' alt='bed with pillows' />
         <img src={blueSquareWelcome} className='welcome-blue-square' alt='blue square' />
       </div>
     )

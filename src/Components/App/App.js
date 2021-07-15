@@ -6,6 +6,7 @@ import MattressType from '../MattressType/MattressType';
 import ProductCards from '../ProductCards/ProductCards';
 import Tips from '../Tips/Tips';
 import ProductCardsHorizontalTab from '../ProductCardsHorizontalTab/ProductCardsHorizontalTab'
+import WelcomeAreaHorizontalTab from '../WelcomeAreaHorizontalTab/WelcomeAreaHorizontalTab'
 
 
 class App extends Component {
