@@ -1160,10 +1160,10 @@ $horizontalTablet */
   
   .good-things-text {
     position: absolute;
-    width: 322px;
-    height: 155px;
+    width: 360px;
+    height: 175px;
     left: 85px;
-    top: 215px;
+    top: 210px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -1175,10 +1175,10 @@ $horizontalTablet */
   
   .linenspa-text {
     position: absolute;
-    width: 211px;
-    height: 97px;
+    width: 240px;
+    height: 102px;
     left: 86px;
-    top: 397px;
+    top: 413px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -1190,28 +1190,28 @@ $horizontalTablet */
   
   .welcome-bed-img {
     position: absolute;
-    width: 505px;
-    height: 364px;
-    left: 350px;
-    top: 192px
+    width: 633px;
+    height: 422px;
+    left: 383px;
+    top: 181px;
   }
   
   .welcome-turquoise-square {
     position: absolute;
-    width: 344px;
-    height: 400px;
-    left: 510px;
-    top: 156px;
+    width: 433px;
+    height: 466px;
+    left: 582px;
+    top: 137px;
     background: #00B3E2;
     box-shadow: 17px 8px 11px rgb(0 0 0 / 18%);
   }
   
   .welcome-blue-square {
     position: absolute;
-    width: 70px;
-    height: 60px;
+    width: 72px;
+    height: 70px;
     left: -15px;
-    top: 215px;
+    top: 211px;
     background: #0061A6;
   }
 }
