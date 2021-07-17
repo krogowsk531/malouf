@@ -14,7 +14,8 @@ class App extends Component {
   // constructor(props) {
   //   super(props);
   //   this.state = {
-  //     isDesktop: false
+  //     isDesktop: false,
+  //     isHorizontalTablet: false
   //   }
   // 
   //   this.updatePredicate = this.updatePredicate.bind(this)
@@ -31,27 +32,38 @@ class App extends Component {
   // 
   // updatePredicate() {
   //   this.setState({ isDesktop: window.innerWidth > 1024 })
+  //   this.setState({ isHorizontalTablet: window.innerWidth > 768 && window.innerWidth < 1024})
   // }
   // 
   render() {
     // const isDesktop = this.state.isDesktop;
+    // const isHorizontalTablet = this.state.isHorizontalTablet;
     
     return (
       <div>
+        <WelcomeArea />
+        <WelcomeAreaHorizontalTab />
+        <WelcomeAreaPortraitTab /> 
       {/*<div>
         {isDesktop ? (
           <WelcomeArea />
         ) : (
           <WelcomeAreaHorizontalTab />
         )}
-      </div>*/}
-        <WelcomeAreaPortraitTab />
+      </div>
       <div>
-        <MattressSize />
-        <MattressType />
+        {isHorizontalTablet ? (
+          <WelcomeAreaHorizontalTab />
+        ) : (
+          <WelcomeAreaPortraitTab />    
+        )}
+      </div>*/}
+      <div>
+        {/*<MattressSize />
+        <MattressType />*/}
         {/*<ProductCards /> */}
         {/*<ProductCardsHorizontalTab /> */}
-        <Tips />
+        {/*<Tips />*/}
       </div>
       </div>
     )

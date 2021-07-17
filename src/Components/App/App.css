@@ -1274,14 +1274,12 @@ $horizontalTablet */
     letter-spacing: 0.6px;
     color: #747474;
   }
+  
+  .blue-box, .welcome-bed-img, .good-things-text, .linenspa-text, .welcome-turquoise-square, .welcome-blue-square, .mattress-shadow, 
+  .mattress-image, .welcome-text, .small-welcome-text {
+    display: none;
+  }
 }
-
-/* <img src={goodThingsTb} className='good-things-text-tb' alt='good things come in tall but manageable packages' />
-<img src={mattressInfoTb} className='linenspa-text-tb' alt='Linenspa mattresses feature a wide variety of feels and fibers' />
-<img src={tealSquareTb} className='teal-square-tb' alt='turquoise shadow' />
-<img src={mattressImgTb} className='mattress-img-tb' alt='bed with pillows' />
-<img src={blueSquareTb} className='blue-square-tb' alt='blue square' /> */
-
 
 
 
