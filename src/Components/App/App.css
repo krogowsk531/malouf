@@ -1221,7 +1221,7 @@ $horizontalTablet */
   .mattress-img-tb {
     position: absolute;
     width: 1250px;
-    height: 731px;
+    height: 755px;
     left: 50px;
     top: 195px;
   }
@@ -1229,7 +1229,7 @@ $horizontalTablet */
   .teal-square-tb {
     position: absolute;
     width: 892px;
-    height: 811px;
+    height: 835px;
     left: 408px;
     top: 115px;
     background: #00B3E2;
@@ -1239,9 +1239,9 @@ $horizontalTablet */
   .blue-square-tb {
     position: absolute;
     width: 126px;
-    height: 117px;
+    height: 125px;
     left: -8px;
-    top: 1003px;
+    top: 1082px;
     background: #0061A6;
   }
   
@@ -1250,7 +1250,7 @@ $horizontalTablet */
     width: 960px;
     height: 165px;
     left: 184px;
-    top: 1010px;
+    top: 1090px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -1265,7 +1265,7 @@ $horizontalTablet */
     width: 932px;
     height: 100px;
     left: 185px;
-    top: 1223px;
+    top: 1307px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
