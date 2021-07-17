@@ -1216,6 +1216,72 @@ $horizontalTablet */
   }
 }
 
+@media(max-width: 768px) {
+  
+  .mattress-img-tb {
+    position: absolute;
+    width: 1250px;
+    height: 731px;
+    left: 50px;
+    top: 195px;
+  }
+  
+  .teal-square-tb {
+    position: absolute;
+    width: 892px;
+    height: 811px;
+    left: 408px;
+    top: 115px;
+    background: #00B3E2;
+    box-shadow: 17px 8px 11px rgb(0 0 0 / 18%);
+  }
+  
+  .blue-square-tb {
+    position: absolute;
+    width: 126px;
+    height: 117px;
+    left: -8px;
+    top: 1003px;
+    background: #0061A6;
+  }
+  
+  .good-things-text-tb {
+    position: absolute;
+    width: 960px;
+    height: 165px;
+    left: 184px;
+    top: 1010px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0.986046px;
+    color: #000000;
+  }
+  
+  .linenspa-text-tb {
+    position: absolute;
+    width: 932px;
+    height: 100px;
+    left: 185px;
+    top: 1223px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #747474;
+  }
+}
+
+/* <img src={goodThingsTb} className='good-things-text-tb' alt='good things come in tall but manageable packages' />
+<img src={mattressInfoTb} className='linenspa-text-tb' alt='Linenspa mattresses feature a wide variety of feels and fibers' />
+<img src={tealSquareTb} className='teal-square-tb' alt='turquoise shadow' />
+<img src={mattressImgTb} className='mattress-img-tb' alt='bed with pillows' />
+<img src={blueSquareTb} className='blue-square-tb' alt='blue square' /> */
+
 
 
 
