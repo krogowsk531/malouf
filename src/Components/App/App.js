@@ -8,6 +8,7 @@ import Tips from '../Tips/Tips';
 import ProductCardsHorizontalTab from '../ProductCardsHorizontalTab/ProductCardsHorizontalTab'
 import WelcomeAreaHorizontalTab from '../WelcomeAreaHorizontalTab/WelcomeAreaHorizontalTab'
 import WelcomeAreaPortraitTab from '../WelcomeAreaPortraitTab/WelcomeAreaPortraitTab'
+import WelcomeAreaMobile from '../WelcomeAreaMobile/WelcomeAreaMobile'
 
 
 class App extends Component {
@@ -38,7 +39,7 @@ class App extends Component {
     
     return (
       <div>
-        <WelcomeArea />
+        {/*}<WelcomeArea />
         <WelcomeAreaHorizontalTab />
         <WelcomeAreaPortraitTab /> 
       {/*<div>
@@ -56,6 +57,7 @@ class App extends Component {
         )}
         </div>
       */}
+        <WelcomeAreaMobile />
       <div>
         {/*<MattressSize />
         <MattressType />*/}
