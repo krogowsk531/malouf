@@ -3,7 +3,7 @@ import goodThingsMobile from './Good Things Come in.png'
 import bedImgMobile from './Linenspa8inGelStillLife_Pillows Copy 3.png'
 import smallTextMobile from './Lorem ipsum dolor si Copy 4.png'
 import tealShadowMobile from './Rectangle 3 Copy 4.png'
-import blueSquareMobile from './Reactangle 12 Copy 3.png' 
+import blueSquareMobile from './Rectangle 12 Copy 3.png' 
 
 
 class WelcomeAreaMobile extends Component {

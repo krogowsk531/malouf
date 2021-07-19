@@ -1281,6 +1281,69 @@ $horizontalTablet */
   }
 }
 
+@media(max-width: 320px) {
+  
+  .turquoise-square-mobile {
+    position: absolute;
+    width: 245px;
+    height: 201px;
+    left: 105px;
+    top: 132px;
+    background: #00B3E2;
+    box-shadow: 17px 8px 11px rgba(0, 0, 0, 0.176913);
+  }
+  
+  .bed-img-mobile {
+    position: absolute;
+    width: 323px;
+    height: 203px;
+    left: 7px;
+    top: 150px;
+  }
+  
+  .blue-square-mobile {
+    position: absolute;
+    width: 48px;
+    height: 41px;
+    left: -22px;
+    top: 393px;
+    background: #0061A6;
+  }
+  
+  .good-things-mobile {
+    position: absolute;
+    width: 231px;
+    height: 108px;
+    left: 40px;
+    top: 384px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 27px;
+    /* or 117% */
+    letter-spacing: 1.39487px;
+    color: #000000;
+  }
+  
+  .linenspa-text-mobile {
+    position: absolute;
+    width: 245px;
+    height: 324px;
+    left: 41px;
+    top: 501px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    letter-spacing: 0.6px;
+    color: #747474;
+  }
+}
+
+
 
 
 
