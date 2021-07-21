@@ -1285,19 +1285,19 @@ $horizontalTablet */
   
   .turquoise-square-mobile {
     position: absolute;
-    width: 493px;
-    height: 482px;
-    left: 214px;
-    top: 107px;
+    width: 222px;
+    height: 243px;
+    left: 315px;
+    top: 125px;
     background: #00B3E2;
     box-shadow: 17px 8px 11px rgb(0 0 0 / 18%);
   }
   
   .bed-img-mobile {
     position: absolute;
-    width: 701px;
-    height: 440px;
-    left: 7px;
+    width: 319px;
+    height: 218px;
+    left: 218px;
     top: 150px;
   }
   
@@ -1312,10 +1312,10 @@ $horizontalTablet */
   
   .good-things-mobile {
     position: absolute;
-    width: 453px;
-    height: 108px;
-    left: 129px;
-    top: 717px;
+    width: 227px;
+    height: 106px;
+    left: 254px;
+    top: 404px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
